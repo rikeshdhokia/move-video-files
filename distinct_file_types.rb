@@ -1,8 +1,4 @@
 require 'set'
-def filter
-  Dir.foreach("test") {|x| puts "Got #{x}" }
-end
-
 
 def distinct_file_types (path)
   result = []
